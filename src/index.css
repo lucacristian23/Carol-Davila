@@ -367,6 +367,17 @@ code {
   }
 }
 
+.calendarContainer {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center; /* Align items horizontally in the center */
+}
+
+.dateContainer {
+  border: 1px solid black;
+  padding: 10px;
+  width: 40vh;
+}
 .hidden-element {
   display: none;
 }

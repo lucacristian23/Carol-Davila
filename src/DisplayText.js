@@ -21,20 +21,31 @@ export default function DisplayText({
             "Admission Process for English Programs" && (
             <div>
               <h2>Admission calendar:</h2>
-              <div style={{ border: "1px solid black" }}>
-                <h3>Session I:</h3>
-                <h4> Online registration:</h4>
-                <h5> 02.05.2023-30.06.2023</h5>
-                <h4>File competition results:</h4>
-                <h5>10.07.2023</h5>
+              <div className="calendarContainer">
+                {" "}
+                <div className="dateContainer">
+                  <h3>Session I:</h3>
+                  <h4> Online registration:</h4>
+                  <h5>Start date</h5>
+                  <h5> 15.04.2024, 10:00 (Bucharest Local Time)</h5>
+                  <h5>End date</h5>
+                  <h5> 26.06.2024, 13:59 (Bucharest Local Time)</h5>
+                  <h4>File competition results:</h4>
+                  <h5>10.07.2024</h5>
+                </div>
+                <div className="dateContainer">
+                  <h3>Session II:</h3>
+                  <h4> Online registration:</h4>
+                  <h5>Start date</h5>
+                  <h5> 29.07.2024, 10:00 (Bucharest Local Time)</h5>
+                  <h5>End date</h5>
+                  <h5> 23.08.2024, 13:59 (Bucharest Local Time)</h5>
+                  <h4>File competition results:</h4>
+                  <h5>02.09.2024</h5>
+                </div>
               </div>
-              <div style={{ border: "1px solid black" }}>
-                <h3>Session II:</h3>
-                <h4> Online registration:</h4>
-                <h5> 01.08.2023-25.08.2023</h5>
-                <h4>File competition results:</h4>
-                <h5>04.09.2023</h5>
-              </div>
+              <h4>Submission of Files</h4>
+              <h5>16.09.2024-20.09.2024</h5>
             </div>
           )}
         {selectedSubOption.subOptionKey === "sub2" &&
@@ -252,7 +263,7 @@ export default function DisplayText({
                       </a>{" "}
                       to see which is applicable in your case. The candidates
                       who have passed the Baccalaureate examination in the
-                      sessions corresponding to the school year 2022-2023 may
+                      sessions corresponding to the school year 2023-2024 may
                       submit, instead of the Baccalaureate / High-School
                       Diploma, a certificate issued by the high school,
                       obligatorily specifying the grade point averages obtained
@@ -317,7 +328,7 @@ export default function DisplayText({
                 <div style={{ border: "1px solid black" }}>
                   <h4>Proof of payment</h4>
                   <h5>
-                    For the non-refundable file processing fee of RON 1,000. It
+                    For the non-refundable file processing fee of RON 1,200. It
                     needs to be paid by bank card, through an online payment
                     processor, in the admission platform.
                   </h5>
@@ -423,7 +434,7 @@ export default function DisplayText({
                       </a>{" "}
                       to see which is applicable in your case. The candidates
                       who have passed the Baccalaureate examination in the
-                      sessions corresponding to the school year 2022-2023 may
+                      sessions corresponding to the school year 2023-2024 may
                       submit, instead of the Baccalaureate / High-School
                       Diploma, a certificate issued by the high school,
                       obligatorily specifying the grade point averages obtained
@@ -493,10 +504,20 @@ export default function DisplayText({
                 <div style={{ border: "1px solid black" }}>
                   <h4>Proof of payment</h4>
                   <h5>
-                    For the non-refundable file processing fee of RON 1,000. It
+                    For the non-refundable file processing fee of RON 1,200. It
                     needs to be paid by bank card, through an online payment
                     processor, in the admission platform.
                   </h5>
+                </div>
+
+                <div style={{ border: "1px solid black" }}>
+                  <h4>
+                    Citizens of Israel or citizens who completed their high
+                    school studies in Israel will upload proof of taking the
+                    psychometric test:
+                  </h4>
+                  <h5> Medicine – a minimum score of 500 points is required</h5>
+                  <h5>Dentistry – no minimum score required</h5>
                 </div>
               </div>
             </div>
