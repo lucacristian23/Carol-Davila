@@ -185,13 +185,12 @@ export default function DisplayText({
                   <h5>
                     The language competence of candidates must be proven,
                     obligatorily, by the existence of supporting documents in
-                    the application folder, according to one of the four
-                    conditions below:
+                    the application folder, according to one of the four options
+                    below:
                   </h5>
                   <h5>
-                    a{")"}By submitting to the application folder a language
-                    proficiency certificate, internationally recognized, not
-                    older than 2 years (see exceptions in{" "}
+                    a{")"}Language proficiency certificate, internationally
+                    recognized, not older than 2 years (see exceptions in{" "}
                     <a
                       href="https://umfcd.ro/wp-content/uploads/2021/STUDENTI_STRAINI/ANEXA-3.pdf"
                       target="_blank"
@@ -199,9 +198,10 @@ export default function DisplayText({
                     >
                       ANNEX 3
                     </a>{" "}
-                    ). The certificates must explicitly state the level of
-                    language proficiency (minimum level B2, according to the
-                    Common European Framework of Reference for Languages -{" "}
+                    ). The certificate must show the explicit mention of the
+                    level of language competence (minimum level B2, according to
+                    the Common European Framework of Reference for Foreign
+                    Languages -{" "}
                     <a
                       href="https://umfcd.ro/wp-content/uploads/2021/STUDENTI_STRAINI/ANEXA-3.pdf"
                       target="_blank"
@@ -336,8 +336,15 @@ export default function DisplayText({
 
                 <div style={{ border: "1px solid black" }}>
                   <h4>
-                    Certificate obtained from the Ministry of Education – the
-                    National Centre for Recognition and Equivalence of Diplomas
+                    Certificate obtained from the{" "}
+                    <a
+                      href="https://cnred.edu.ro/en/preuniversity-studies/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Ministry of Education – the National Centre for
+                      Recognition and Equivalence of Diplomas
+                    </a>{" "}
                   </h4>
                 </div>
               </div>
@@ -356,13 +363,12 @@ export default function DisplayText({
                   <h5>
                     The language competence of candidates must be proven,
                     obligatorily, by the existence of supporting documents in
-                    the application folder, according to one of the four
-                    conditions below:
+                    the application folder, according to one of the four options
+                    below:
                   </h5>
                   <h5>
-                    a{")"}By submitting to the application folder a language
-                    proficiency certificate, internationally recognized, not
-                    older than 2 years (see exceptions in{" "}
+                    a{")"}Language proficiency certificate, internationally
+                    recognized, not older than 2 years (see exceptions in{" "}
                     <a
                       href="https://umfcd.ro/wp-content/uploads/2021/STUDENTI_STRAINI/ANEXA-3.pdf"
                       target="_blank"
@@ -370,9 +376,10 @@ export default function DisplayText({
                     >
                       ANNEX 3
                     </a>{" "}
-                    ). The certificates must explicitly state the level of
-                    language proficiency (minimum level B2, according to the
-                    Common European Framework of Reference for Languages -{" "}
+                    ). The certificate must show the explicit mention of the
+                    level of language competence (minimum level B2, according to
+                    the Common European Framework of Reference for Foreign
+                    Languages -{" "}
                     <a
                       href="https://umfcd.ro/wp-content/uploads/2021/STUDENTI_STRAINI/ANEXA-3.pdf"
                       target="_blank"
@@ -649,8 +656,16 @@ export default function DisplayText({
                 <div style={{ border: "1px solid black", padding: "2vh" }}>
                   <h3>Step 1: Access the visa application website</h3>
                   <h4>
-                    Click on the provided link to access the visa application
-                    website of the Romanian Ministry of Internal Affairs.
+                    Click on the provided{" "}
+                    <a
+                      href="https://eviza.mae.ro/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      link
+                    </a>{" "}
+                    to access the visa application website of the Romanian
+                    Ministry of Internal Affairs.
                   </h4>
                 </div>
                 <div style={{ border: "1px solid black", padding: "2vh" }}>
@@ -1494,7 +1509,8 @@ export default function DisplayText({
                 ride-sharing service, you can also opt for the two non-stop bus
                 lines, namely line 100 and line 442. Additionally, there's the
                 option of a 15-minute non-stop train journey, which will take
-                you directly from the Airport to Gara de Nord.
+                you directly from the Airport to Gara de Nord(North Railway
+                Station).
               </h3>
             </div>
           )}

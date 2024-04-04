@@ -95,7 +95,7 @@ const infoData = [
   {
     title: "Student Fees",
     description: "Take a look at the university's annual taxes",
-    suboptions: [{ key: "sub1", value: "Taxes" }],
+    suboptions: [{ key: "sub1", value: "Fees" }],
     image: "/taxes.jpg",
   },
   {
