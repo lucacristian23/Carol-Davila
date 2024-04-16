@@ -30,7 +30,13 @@ const infoData = [
       { key: "sub4", value: "Evaluation Criteria for Admission" },
       { key: "sub5", value: "Online Document Submission Process" },
     ],
-    image: "/admission.jpg",
+    image: "/calculator admission.jpg",
+  },
+  {
+    title: "Student Fees",
+    description: "Take a look at the university's annual taxes",
+    suboptions: [{ key: "sub1", value: "Fees" }],
+    image: "/taxes.jpg",
   },
   {
     title: "Obtaining Romanian Entry Visa",
@@ -43,20 +49,7 @@ const infoData = [
     ],
     image: "/visa.jpg",
   },
-  {
-    title: "Accommodation",
-    description:
-      "Explore various housing options in Romania, including university and private dormitories, off-campus rentals, and temporary stays.",
-    suboptions: [
-      { key: "sub1", value: "Application Process for University Dormitories" },
-      {
-        key: "sub2",
-        value: "Application Process for Private Dormitories",
-      },
-      { key: "sub3", value: "Finding Rentals on Online Platforms" },
-    ],
-    image: "/accomodation.jpg",
-  },
+
   {
     title: "Legal Residence in Romania",
     description:
@@ -70,6 +63,16 @@ const infoData = [
       { key: "sub3", value: "How To Apply Online" },
     ],
     image: "/legal residency.jpg",
+  },
+  {
+    title: "Accommodation",
+    description:
+      "Explore various housing options in Romania, including university and private dormitories, off-campus rentals, and temporary stays.",
+    suboptions: [
+      { key: "sub1", value: "Application Process for University Dormitories" },
+      { key: "sub3", value: "Finding Rentals on Online Platforms" },
+    ],
+    image: "/accomodation.jpg",
   },
   {
     title: "Transport in Bucharest",
@@ -92,12 +95,7 @@ const infoData = [
     ],
     image: "/transportation.jpg",
   },
-  {
-    title: "Student Fees",
-    description: "Take a look at the university's annual taxes",
-    suboptions: [{ key: "sub1", value: "Fees" }],
-    image: "/taxes.jpg",
-  },
+
   {
     title: "What to do in Bucharest",
     description:
