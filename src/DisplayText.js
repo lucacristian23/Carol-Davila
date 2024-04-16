@@ -1100,7 +1100,7 @@ export default function DisplayText({
                   How to use Info TB App for navigating the Bucharest like a
                   local!
                 </h4>
-                <div style={{ border: "1px solid black" }}>
+                <div style={{ border: "1px solid black", padding: "3vh" }}>
                   <h5>
                     The Info TB app is an extremely useful tool when it comes to
                     using public transport in Bucharest. One of its most
