@@ -378,6 +378,21 @@ code {
   padding: 10px;
   width: 40vh;
 }
+
+.imageStyle {
+  width: 50vw; /* 50% of the viewport width */
+  height: 40vh; /* 40% of the viewport height */
+  margin-bottom: 6vh; /* 6% of the viewport height as bottom margin */
+}
+
+@media screen and (min-width: 1280px) {
+  .imageStyle {
+    width: 25vw; /* 50% of the viewport width */
+    height: 40vh; /* 40% of the viewport height */
+    margin-bottom: 6vh; /* 6% of the viewport height as bottom margin */
+  }
+}
+
 .hidden-element {
   display: none;
 }

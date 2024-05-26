@@ -1543,6 +1543,39 @@ export default function DisplayText({
                 will need to complete a form provided by the International
                 Students Office, after submitting the physical file.
               </h3>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column", // Stack the children vertically
+                  justifyContent: "center", // Center the items vertically
+                  alignItems: "center", // Center the items horizontally
+
+                  width: "50vw", // Set the width as needed, for example, to half of the viewport width
+                  margin: "0 auto", // Automatically adjust the margin on both sides to center the div horizontally
+                }}
+              >
+                <img
+                  src="camin1.jpg"
+                  alt="Description of camin1"
+                  class="imageStyle"
+                />
+                <img
+                  src="camin2.jpg"
+                  alt="Description of camin2"
+                  class="imageStyle"
+                />
+                <img
+                  src="camin3.jpg"
+                  alt="Description of camin3"
+                  class="imageStyle"
+                />
+                <img
+                  src="camin4.jpg"
+                  alt="Description of camin4"
+                  class="imageStyle" // No margin on the last item
+                />
+              </div>
             </div>
           )}
 
